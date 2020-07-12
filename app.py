@@ -2,7 +2,7 @@
 # https://towardsdatascience.com/working-with-apis-using-flask-flask-restplus-and-swagger-ui-7cf447deda7f
 
 from flask import Flask
-from flask_restplus import Api, Resource
+from flask_restx import Api, Resource, fields
 
 flask_app = Flask(__name__)
 app = Api(app = flask_app)
